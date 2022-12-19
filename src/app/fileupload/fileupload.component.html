@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col-mg-12" id="con">
+            <h1>Please Upload am image/file to get connections for you.</h1>
+        </div>
+        <br>
+        <div class="col-md-12" id="upf">
+            <form [formGroup]="fileupload" (ngSubmit)="onUpload()" novalidate>
+                <input type="file" formControlName="file">
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>

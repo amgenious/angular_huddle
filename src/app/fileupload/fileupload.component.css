@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+.container{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    background-color: bisque;
+}
+#con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 19vh;
+}

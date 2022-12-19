@@ -1,0 +1,19 @@
+.footer{
+    height: max-content;
+    padding: 20px;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.footertext{
+    width: 50%;
+    text-align: justify;
+}
+@media screen and (max-width:846px){
+    .footer{
+        flex-wrap: wrap;
+    }
+}
